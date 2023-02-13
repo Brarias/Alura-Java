@@ -1,0 +1,11 @@
+
+public class EjercicioMultiplo {
+public static void main(String[] args) {
+	/*Todos los números múltiplos de 3 del 1 al 100*/
+	for(int contador = 1; contador <= 100; contador++) {
+		if(contador %3 == 0) {
+			System.out.println(contador);
+		}
+	}
+}
+}
