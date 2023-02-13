@@ -1,0 +1,8 @@
+
+public class TipoVariable {
+	public static void main(String[] args) {
+		double variableUno = 238.89;
+		int variableUnoEntero = (int) variableUno;
+		System.out.println(variableUnoEntero);
+	}
+}
