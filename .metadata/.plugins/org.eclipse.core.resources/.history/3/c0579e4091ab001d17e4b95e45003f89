@@ -1,8 +1,0 @@
-
-public class EjemploCiclos {
-	public static void main(String[] args) {
-		
-		/*Imprimir los números del 1 al 10*/
-
-	}
-}
