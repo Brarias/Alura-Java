@@ -4,14 +4,14 @@ public class PruebaMetodos {
 	public static void main(String[] args) {
 		
 		Cuenta cuentaPrueba = new Cuenta();
-		cuentaPrueba.saldo = 300;
+		cuentaPrueba.setSaldo(300);
 		
 		cuentaPrueba.depositar(1000);
-		System.out.println(cuentaPrueba.saldo);
+		System.out.println(cuentaPrueba.getSaldo());
 		
 		cuentaPrueba.retirar(500);
 		
-		System.out.println(cuentaPrueba.saldo);
+		System.out.println(cuentaPrueba.getSaldo());
 		
 		Cuenta cuentaSecundaria = new Cuenta();
 		
@@ -23,7 +23,7 @@ public class PruebaMetodos {
 			System.out.println("No se pudo realizar la transferencia");
 		}
 		
-		System.out.println(cuentaPrueba.saldo);
-		System.out.println(cuentaSecundaria.saldo);
+		System.out.println(cuentaPrueba.getSaldo());
+		System.out.println(cuentaSecundaria.getSaldo());
 	}
 }

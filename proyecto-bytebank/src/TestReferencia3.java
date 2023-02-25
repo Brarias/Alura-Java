@@ -9,6 +9,6 @@ public class TestReferencia3 {
 		cuentaDeDiego.titular = new Cliente();
 		cuentaDeDiego.titular.nombre = "Diego";*/
 
-		System.out.println(cuentaDeDiego.titular.nombre);
+		System.out.println(cuentaDeDiego.getTitular().getNombre());
 	}
 }
