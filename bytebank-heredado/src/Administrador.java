@@ -1,12 +1,10 @@
-// extiende de... Herencia
-public class Gerente extends Funcionario implements Autenticable{
 
+public class Administrador extends Funcionario implements Autenticable{
 	
-	// sobreescritura de método
-	@Override
+
 	public double getBonificacion() {
-		System.out.println("Ejecutando desde Gerente");
-		return 2000;
+		
+		return 0;
 	}
 
 	@Override
@@ -20,4 +18,5 @@ public class Gerente extends Funcionario implements Autenticable{
 		// TODO Auto-generated method stub
 		
 	}
+
 }

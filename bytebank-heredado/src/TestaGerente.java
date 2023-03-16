@@ -12,7 +12,7 @@ public class TestaGerente {
 		gerente.setClave("AluraCursosOnline");
 		
 		System.out.println(gerente.getBonificacion());
-		System.out.println(gerente.iniciarSesion(gerente.getClave()));
+		
 		
 		//System.out.println(gerente.getBonificacion());
 	}
