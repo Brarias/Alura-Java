@@ -7,19 +7,20 @@ public class Flujo {
 	}
 		private static void metodo1() {
 			System.out.println("Inicio de metodo1");
-			metodo2();
+			try {
+				metodo2();
+			}catch(MiException me) {
+				me.printStackTrace();
+			}
+			
 			System.out.println("Fin de metodo1");	
 	}
 		
 		private static void metodo2() {
 			System.out.println("Inicio de metodo2");
-			for(int i = 1; i <= 5; i++) {
-				System.out.println(i);
-				int num = 0;
-				int resultado = i/num;
-				System.out.println(resultado);
-			}
-			System.out.println("Fin de metodo2");
+			throw new MiException("Mi excepcion fue lanzada");
+			
+			
 		}
 
 }
