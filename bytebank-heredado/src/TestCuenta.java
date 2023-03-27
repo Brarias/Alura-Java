@@ -10,7 +10,11 @@ public class TestCuenta {
 		CuentaAhorro ca = new CuentaAhorro(2, 3);
 		
 		cc.depositar(2000);
-		cc.transferir(1000, ca);
+		try {
+			cc.transferir(1000, ca);
+		} catch (SaldoInsuficienteException e) {
+			e.printStackTrace();
+		}
 		
 		System.out.println(cc.getSaldo());
 		System.out.println(ca.getSaldo());
