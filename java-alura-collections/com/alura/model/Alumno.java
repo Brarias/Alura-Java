@@ -18,6 +18,8 @@ public class Alumno {
         return codigo;
     }
 
+
+
     @Override
     public String toString() {
         return this.nombre;
