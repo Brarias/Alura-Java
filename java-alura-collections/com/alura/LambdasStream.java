@@ -1,9 +1,11 @@
 package com.alura;
 
 import java.util.ArrayList;
+
 import com.alura.model.Curso;
 
-public class ArraylistOrdenar {
+
+public class LambdasStream {
 
     public static void main(String[] args) {
 
@@ -21,6 +23,7 @@ public class ArraylistOrdenar {
         System.out.println(curso2);
         System.out.println(curso3);
         System.out.println(curso4);
+        System.out.println(cursos);
 
 
 
@@ -75,7 +78,7 @@ public class ArraylistOrdenar {
 
         // stream a partir de Java 8
 
-       // List<String> cursosList  = cursos.stream().sorted().collect(Collectors.toList());
-        //System.out.println(cursosList);
+        // List<String> cursosList  = cursos.stream().sorted().collect(Collectors.toList());
+        // System.out.println(cursosList);
     }
 }
